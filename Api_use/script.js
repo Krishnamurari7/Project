@@ -1,7 +1,7 @@
 async function apiuse() {
   const response = await fetch('https://jsonplaceholder.typicode.com/users');
   const result = await response.json();
-//   console.log(result);
+  // console.log(result);
 document.getElementById("userData").innerHTML = result.map((user) => 
         `<tr>
         <td>${user.name}</td>
@@ -11,7 +11,6 @@ document.getElementById("userData").innerHTML = result.map((user) =>
         <td>${user.email}</td>
         </tr>`
         )
-
  .join("");
 };
 

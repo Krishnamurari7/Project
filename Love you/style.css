@@ -9,25 +9,29 @@
     border: 2px solid rgb(14, 14, 201);
     border-radius: 15px;
 }
-.btn{
+button{
+    position: absolute;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    cursor: pointer;
     margin-top: 20px;
     margin-left: 20%;
     margin-right: 20%;
-
-}
-
-.btn button{
-    background-color: rgb(237, 10, 203);
-  color: black;
+    background-color: rgb(41, 208, 7);
+    color: black;
   border: 2px solid #04AA6D;
   border-radius: 20px;
   font-size: 30px;
+
+}
+
+.second{
+    left: 50%;
+    top: 20;
 }
 .first:hover{
-    background-color: rgb(50, 224, 7);
+    background-color: rgb(224, 7, 159);
 }
 .second:hover{
-    background-color: rgb(245, 10, 10);
+    background-color: rgb(224, 61, 7);
 }

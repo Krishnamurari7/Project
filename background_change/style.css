@@ -12,6 +12,13 @@ body{
     align-items: center;
 
 }
+.main input{
+   width: auto;
+   font-size: 20px;
+   background-color: antiquewhite;
+   color: black;
+   border-radius: 10px;
+}
 .main button{
     font-size: larger;
     margin: 10px;

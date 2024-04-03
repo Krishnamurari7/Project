@@ -1,4 +1,4 @@
-const hero = document.querySelector('main');
+const hero = document.querySelector('input');
 
 //background color change
 
@@ -22,7 +22,8 @@ const hero = document.querySelector('main');
   
     // Apply the random color as background color
     document.body.style.backgroundColor = randomColor;
-    console.log(randomColor);
-    document.body.appendChild(hero);
+    // console.log(randomColor);
+    // document.getElementById('colorInput').value = randomColor;
+    hero.value = randomColor;
   });
   

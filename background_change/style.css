@@ -1,0 +1,27 @@
+body{
+
+    background-color: aqua;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main button{
+    font-size: larger;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px red;
+    border-radius: 10px;
+    transition: ease-in-out;
+}
+.main button:hover{
+    background-color: white;
+    color: black;
+}

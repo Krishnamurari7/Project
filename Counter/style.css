@@ -1,0 +1,17 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(122, 150, 175);
+}
+.btn button{
+    margin: 10px;
+}
+button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
